@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ 
+body{
+    display: flex;
+    padding: 0 10px;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+}
+
+.wrapper{
+    width: 720px;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.wrapper header{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+    padding: 20px 30px;
+    border-bottom: 1px solid #edecf5;
+}
+
+.wrapper form{
+    margin: 35px 30px;
+}
+
+form .db1-field {
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.db1-field .field{
+    font-size: 30px;
+     height: 50px;
+}
+
+
+
+
